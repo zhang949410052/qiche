@@ -1,0 +1,80 @@
+.favorable{
+    margin-top: 6px;
+    .favorable_content{
+        width: 700px;
+        margin: 0 auto;
+        .favorable_l{
+            width: 222px;
+            height: 564px;
+            background: #CCCCCC;
+            float: left;
+        }
+        .favorable_l:after{
+            display: block;
+            clear: both;
+            content: "";
+        }
+        .favorable_r{
+            margin-left: 18px;
+            float: left;
+            width: 700px;
+            .favorable_c{
+                width: 680px;
+                border-bottom: 1px solid #CCCCCC;
+                padding: 6px;
+                span{
+                    font-weight: bold;
+                    padding-left: 6px;
+                }
+                
+            }
+            ul{
+                width: 700px;
+                margin-top: 20px;
+                li{
+                    margin-left: 40px;
+                    height: 160px;
+                    margin-bottom: 38px;
+                    border-bottom: 1px dashed #CCCCCC;
+                    div{
+                        float: left;
+                        a{
+                            display: block;
+                            img{margin: 6px 6px;
+                                width: 120px;
+                                height: 90px;
+                            }
+                        }
+                        .favorable_03{
+                            position: absolute;
+                            margin-top: -132px;
+                            margin-left: 20px;
+                        }
+                        p{
+                           margin-bottom: 9px; 
+                           font-size: 12px;
+                           .favorable_span{
+                               color: #FF0400;
+                           }
+                        }
+                        p:nth-of-type(1){
+                            font-size: 16px;
+                            font-weight: bolder;
+                        }
+                        button{
+                            margin-top: 20px;
+                            margin-right: 8px;
+                            border-radius: 8px;
+                            border: 1px solid #ccc;
+                        }
+                    }
+                    div:nth-of-type(2){
+                        margin-left: 50px;
+                    }
+                }
+
+                
+            }
+        }
+    } 
+}

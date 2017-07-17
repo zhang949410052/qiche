@@ -1,0 +1,162 @@
+.content{height: 900px;}
+.trends {
+  width: 700px;
+  height: 594px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 6px; 
+  }
+  .trends .trends_header {
+    width: 688px;
+    padding: 6px;
+    border-bottom: 1px solid #dcdcdc; }
+    .trends .trends_header h6 {
+      padding-left: 6px; }
+  .trends .trends_content {
+    width: 676px;
+    margin: 4px 0px 0px 8px; }
+    .trends .trends_content li {
+      width: 660px;
+      padding: 6px 10px;
+      border-bottom: 1px solid #dcdcdc; }
+  .trends .trends_footer {
+    position: absolute;
+    left: 262px;
+    bottom: 10px; }
+    .trends .trends_footer p {
+      float: left;
+      width: 30px;
+      height: 30px;
+      border-radius: 2px;
+      background: #d0d0d0;
+      color: #868686;
+      margin-right: 6px;
+      line-height: 30px;
+      text-align: center; }
+    .trends .trends_footer p.one {
+      width: 34px;
+      height: 34px;
+      background: #444444;
+      margin-top: -2px;
+      line-height: 34px; }
+      .trends .trends_footer p.one a {
+        color: #ffffff; }
+    .trends .trends_footer p.gt {
+      margin-right: 2px; }
+    .trends .trends_footer p:hover {
+      width: 34px;
+      height: 34px;
+      background: #444444;
+      margin-top: -2px;
+      line-height: 34px; }
+      .trends .trends_footer p:hover a {
+        color: #ffffff; }
+
+.word {
+  width: 700px;
+  height: 594px;
+  position: relative;
+  /*right: 200px;*/
+  margin-left: 10px;
+  margin-top: 6px; }
+  .word .word_header {
+    width: 694px;
+    padding: 6px;
+    padding-right: 0px;
+    border-bottom: 1px solid #dcdcdc; }
+    .word .word_header h6 {
+      padding-left: 6px; }
+    .word .word_header div {
+      width: 82px;
+      height: 26px;
+      line-height: 26px;
+      margin-bottom: -6px;
+      border: 1px solid #dcdcdc;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom: none; }
+      .word .word_header div h5 {
+        height: 20px;
+        line-height: 20px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background: #f0f0ef;
+        padding: 4px 6px 0 10px;
+        border: none;
+        margin: 2px;
+        text-align: center; }
+  .word .word_content {
+    width: 618px;
+    padding: 24px 0px 0px 34px; }
+    .word .word_content li {
+      width: 618px;
+      border-bottom: 1px dotted #dcdcdc;
+      margin-bottom: 34px; }
+      .word .word_content li .word_content_left {
+        width: 61px;
+        margin-right: 37px; }
+        .word .word_content li .word_content_left p {
+          margin-bottom: 18px;
+          color: #999999;
+          width: 61px; }
+      .word .word_content li .word_content_right {
+        width: 520px;
+        margin-bottom: 26px; }
+        .word .word_content li .word_content_right p {
+          margin-bottom: 18px; }
+          .word .word_content li .word_content_right p span.user a {
+            color: #009999; }
+        .word .word_content li .word_content_right p.en {
+          margin-top: -6px;
+          font-weight: bold;
+          line-height: 32px; }
+        .word .word_content li .word_content_right div.reply {
+          background: #fafafa;
+          color: #999999;
+          border: 1px solid #cccccc;
+          margin-top: -12px; }
+          .word .word_content li .word_content_right div.reply p.reply_user {
+            line-height: 22px;
+            padding: 18px 8px;
+            margin-top: 4px; }
+            .word .word_content li .word_content_right div.reply p.reply_user span {
+              color: #ff3333;
+              font-weight: bold; }
+          .word .word_content li .word_content_right div.reply p.reply_user2 {
+            margin-bottom: 0px; }
+    .word .word_content li.lastli {
+      border-bottom: none; }
+  .word .word_footer {
+    position: absolute;
+    left: 262px;
+    bottom: 10px; }
+    .word .word_footer p {
+      float: left;
+      width: 30px;
+      height: 30px;
+      border-radius: 2px;
+      background: #d0d0d0;
+      color: #868686;
+      margin-right: 6px;
+      line-height: 30px;
+      text-align: center; }
+    .word .word_footer p.one {
+      width: 34px;
+      height: 34px;
+      background: #444444;
+      margin-top: -2px;
+      line-height: 34px; }
+      .word .word_footer p.one a {
+        color: #ffffff; }
+    .word .word_footer p.gt {
+      margin-right: 2px; }
+    .word .word_footer p:hover {
+      width: 34px;
+      height: 34px;
+      background: #444444;
+      margin-top: -2px;
+      line-height: 34px; }
+      .word .word_footer p:hover a {
+        color: #ffffff; }
+
+/*# sourceMappingURL=trends.css.map */

@@ -1,0 +1,158 @@
+.activity_box {
+    width: 700px;
+    height: 454px;
+    position: absolute;
+    right: 200px;
+}
+
+.activity_box_sales {
+    width: 688px;
+    /*height: 40px;*/
+    border-bottom: 1px solid #dfdfdf;
+    padding: 6px;
+}
+
+.activity_box_sales:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.activity_box_sales span {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin-top: 14px;
+    float: left;
+    padding-left: 6px;
+    font-weight: bold;
+
+}
+
+.activity_box_sales img {
+    float: left;
+    margin-top: 14px;
+    line-height: 40px;
+    margin-left: 6px;
+}
+
+.activity_mainBox {
+    width: 698px;
+    height: 416px;
+    margin-left: 12px;
+}
+
+.activity_box_mainOne,
+.activity_box_mainTwo {
+    width: 698px;
+    height: 198px;
+    border-bottom: 1px dashed silver;
+}
+
+.activity_box_mainOne:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.activity_box_mainOne>.mainOne_img {
+    width: 164px;
+    height: 163px;
+    line-height: 198px;
+    margin-left: 0;
+    padding-top: 10px;
+    float: left;
+}
+
+.activity_box_mainOne>.mainOne_img .posi_img {
+    position: absolute;
+    top: 48px;
+    left: 9px;
+}
+
+.activity_box_mainOne .mainOne_img>img {}
+
+.activity_box_mainOne .mainOne_right {
+    width: 534px;
+    height: 198px;
+    float: left;
+}
+
+.mainOne_right:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.mainOne_right>.mainOne_rightOne {
+    float: left;
+    height: 198px;
+    margin-left: 20px;
+}
+
+.mainOne_rightOne .rightOne_titleOne {
+    margin-top: 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mainOne_rightOne .rightOne_titleTwo {
+    margin-top: 24px;
+}
+
+.mainOne_rightOne .rightOne_titleTwo span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mainOne_rightOne .rightOne_titleThree {
+    margin-top: 12px;
+}
+
+.mainOne_rightOne .rightOne_titleThree span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rightOne_titleThree:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.rightOne_titleThree p {
+    float: left;
+}
+
+.mainOne_rightOne .rightOne_titleFour {
+    margin-top: 16px;
+}
+
+.mainOne_right>.mainOne_rightTwo {
+    height: 198px;
+    float: right;
+    margin-right: 34px;
+}
+
+.mainOne_right>.mainOne_rightTwo>p {
+    padding-top: 70px;
+    margin-bottom: 12px;
+}
+
+.mainOne_right>.mainOne_rightTwo>input {
+    width: 98px;
+    height: 30px;
+    background: linear-gradient(#7b7b7b, #2c2c2c);
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.activity_box_mainOne>.mainOne_img2 {
+    padding-top: 22px;
+}
+
+.mainOne_right>.mainOne_rightTwo>.rightTwo_btn {
+    background: linear-gradient(#cccccc, #9e9e9e);
+}

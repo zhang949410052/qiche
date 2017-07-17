@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sales.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/show_new.css"/>
+</head>
+<body>
+<div class="banner">
+    <div class="banner-nav clearfix">
+        <img src="../img/logo.png" alt="" />
+        <ul class="banner-nav-ul clearfix">
+            <li class="lia-border"><a href="#">访问海淀生活网</a></li>
+            <li class="li-border"><a href="#">名店街</a></li>
+            <li class="li-border"><a href="#">行业街</a></li>
+            <li class="li-border"><a href="#">收藏此店铺</a></li>
+            <a href="#" class="year clearfix">
+                <p class="pa">商家宝第</p>
+                <div>
+                    3
+                </div>
+                <p>年</p>
+            </a>
+        </ul>
+    </div>
+</div>
+<div class="logo clearfix">
+    <div class="logo-name clearfix">
+        <h1>北京大通汽车销售有限公司</h1>
+        <div class="tel clearfix">
+            <img src="../img/phone.png" alt="" />
+            <p>资讯电话：0577-65526799</p>
+        </div>
+    </div>
+</div>
+<div class="nav clearfix">
+    <ul class="nav-ul clearfix">
+        <li class="nav-ul-lia"><a href="../index.html">首页</a></li>
+        <li class="nav-ul-li"><a href="we.html">关于我们</a></li>
+        <li class="nav-ul-li"><a href="news.html">新闻中心</a></li>
+        <li class="nav-ul-li"><a href="trends.html">市场动态</a></li>
+        <li class="nav-ul-li"><a href="show.html">汽车展厅</a></li>
+        <li class="nav-ul-li"><a href="sales.html">促销信息</a></li>
+        <li class="nav-ul-li"><a href="favorable.html">优惠券</a></li>
+        <li class="nav-ul-li"><a href="word.html">客户留言</a></li>
+        <li class="nav-ul-li"><a href="contact.html">联系我们</a></li>
+    </ul>
+</div>
+
+
+<div class="content clear">
+    <div class="sales_banner">
+        <img src="../img/banner1.png"/>
+    </div>
+    <div class="sales_left">
+        <ul class="sales_ul">
+            <a href="we.html"><li>关于我们</li></a>
+            <a href="news.html"><li>新闻中心</li></a>
+            <a href="trends.html"><li>市场动态</li></a>
+            <a href="sales.html"><li>促销信息</li></a>
+            <a href="favorable.html"><li>优惠卷</li></a>
+            <a href="activity.html"><li>有奖活动</li></a>
+            <a href="word.html"><li>客户留言</li></a>
+            <a href="contact.html"><li>联系我们</li></a>
+        </ul>
+    </div>
+    <div class="show left">
+        <div class="show_content">
+            <!--左边banner-->
+            <div class="show_r">
+                <div class="show_c clear">
+                    <img src="../img/car.png" class="left"/><span class="left">汽车展厅</span>
+                </div>
+                <div class="show_xia clear">
+                    <div id="show_xzuo" class="left">
+                        <div id="show_qie">
+                            <div class="divimg">
+                                <a href="#" class="a1"><img src="../images/show_03.png"/></a>
+                                <span id="mask"></span>
+                            </div>
+                            <div class="divimg">
+                                <a href="#" class="a1"><img src="../images/favorable_06.png"/></a>
+                                <!--<span id="mask"></span>-->
+                            </div>
+                            <div class="divimg">
+                                <a href="#" class="a1"><img src="../images/show_03.png"/></a>
+                            </div>
+                            <div class="divimg">
+                                <a href="#" class="a1"><img src="../images/show_9.png"/></a>
+                            </div>
+                        </div>
+                        <div class="a_img">
+                            <a href="#" class="a"><img src="../images/show_03.png"/></a>
+                            <a href="#" class="a"><img src="../images/show_9.png"/></a>
+                            <a href="#" class="a"><img src="../images/show_9.png"/></a>
+                            <a href="#" class="a"><img src="../images/show_9.png"/></a>
+                        </div>
+                    </div>
+                    <div id="odiv2">
+                        <img src="../images/show_03.png" id="img1"/>
+                    </div>
+                    <div class="show_xyou left">
+                        <h3>别克君威</h3>
+                        <p>价格：<span>13000</span>元</p>
+                        <p>更新日期：2011-9-3 12：21：48</p>
+                        <input type="button" value="暂不支持订购"/>
+                    </div>
+                </div>
+                <div class="show_xyou_img">
+                    <img src="../images/show_10.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-content clearfix">
+        <div class="www">
+            <h2>www.aiche.ccoo.cn</h2>
+        </div>
+        <div class="footer-ul clearfix">
+            <ul>
+                <li>网站管理</li>
+                <li>海淀生活网</li>
+                <li>服务提供 : </li>
+                <li>版权所有</li>
+                <li>汽车销售部</li>
+            </ul>
+            <p>Copyright @ 海淀生活网 2014-2011. ALL RightReserved</p>
+            <p class="num">您是第<span>12598</span>位访问者</p>
+        </div>
+    </div>
+</div>
+<script>
+    var spans = document.getElementsByClassName("a");
+    var divs = document.getElementsByClassName("divimg");
+    for(var i = 0;i<spans.length;i++){
+        divs[i].style.display = "none";
+        divs[0].style.display = "block";
+        spans[i].onclick = function(){
+            for(var j = 0;j<spans.length;j++){
+                if(spans[j] == this){
+                    divs[j].style.display = "block";
+                }
+                else{
+                    divs[j].style.display = "none";
+                }
+            }
+        }
+    }
+    window.onload = function(){
+        var omask = document.getElementById("mask");
+        var odiv2 = document.getElementById("odiv2");
+        var oimg2 = document.getElementById("img1");
+        var odiv1 = document.getElementById("show_qie");
+        var cont = document.getElementsByClassName("content")[0]
+        odiv1.onmouseover = function () {
+            omask.style.display = "block";
+            odiv2.style.display = "block";
+        };
+        odiv1.onmouseout = function () {
+            omask.style.display = "none";
+            odiv2.style.display = "none";
+
+        };
+        odiv1.onmousemove = function (ev) {
+            var oevent = ev || event;
+            var l = oevent.clientX - cont.offsetLeft-odiv1.offsetLeft-omask.offsetWidth/2;
+            var t = oevent.clientY -cont.offsetTop-odiv1.offsetTop-omask.offsetHeight/2+document.body.scrollTop;
+            console.log(t)
+            console.log(cont.offsetLeft-odiv1.offsetLeft/2)
+            if(l<0){l = 0};
+            if(l > odiv1.offsetWidth - omask.offsetWidth){
+                l = odiv1.offsetWidth - omask.offsetWidth
+            }
+            if(t<0){t = 0};
+            if(t > odiv1.offsetHeight - omask.offsetHeight){
+                t = odiv1.offsetHeight - omask.offsetHeight
+            }
+            omask.style.left = l + 'px';
+            omask.style.top = t + 'px';
+
+            oimg2.style.left = -l/(odiv1.offsetWidth-omask.offsetWidth)*(oimg2.offsetWidth-odiv2.offsetWidth)+'px';
+            oimg2.style.top = -t/(odiv1.offsetHeight-omask.offsetHeight)*(oimg2.offsetHeight-odiv2.offsetHeight)+'px';
+
+
+
+        }
+    }
+
+
+</script>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,106 @@
+/*body{position: relative;}*/	
+.show {
+  width: 700px; }
+  .show .show_content {
+    width: 700px;
+    margin: 8px auto; }
+    .show .show_content .show_l {
+      width: 222px;
+      height: 564px;
+      background: #CCCCCC;
+      float: left; }
+    .show .show_content .show_l:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .show .show_content .show_c {
+      width: 698px;
+      border-bottom: 1px solid #CCCCCC;
+      margin-bottom: 14px;
+      padding: 6px; }
+      .show .show_content .show_c span {
+        float: left;
+        padding-left: 6px;
+        font-weight: bold; }
+    .show .show_content .show_xia {
+      width: 700px;
+      height: 300px;
+      padding: 15px; }
+      .show .show_content .show_xia #show_xzuo {
+        width: 287px;
+        height: 217px;
+        border: 1px solid #ccc;
+        padding: 3px;
+        float: left; }
+        .show .show_content .show_xia #show_xzuo .divimg {
+          position: relative; }
+          .show .show_content .show_xia #show_xzuo .divimg a img {
+            width: 287px;
+            height: 217px; }
+          .show .show_content .show_xia #show_xzuo .divimg #mask {
+            width: 80px;
+            height: 80px;
+            background: yellow;
+            opacity: 0.5;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none; }
+        .show .show_content .show_xia #show_xzuo .a_img {
+          width: 297px;
+          height: 55px;
+          margin-top: 11px; }
+          .show .show_content .show_xia #show_xzuo .a_img img {
+            width: 70px;
+            height: 53px;
+            margin-left: 4px;
+            display: block;
+            float: left; }
+      .show .show_content .show_xia #odiv2 {
+        width: 300px;
+        height: 225px;
+        position: absolute;
+        margin-left: 300px;
+        background: pink;
+        display: none;
+        overflow: hidden; }
+        .show .show_content .show_xia #odiv2 #img1 {
+          position: absolute;
+          width: 740px;
+          height: 630px; }
+      .show .show_content .show_xia .show_xyou {
+        width: 365px;
+        height: 300px;
+        float: right; }
+        .show .show_content .show_xia .show_xyou p {
+          line-height: 40px; }
+          .show .show_content .show_xia .show_xyou p span {
+            font-size: 30px;
+            font-weight: bold;
+            margin-right: 2px; }
+        .show .show_content .show_xia .show_xyou input {
+          width: 135px;
+          height: 45px;
+          border-radius: 10px;
+          border: 2px solid #ccc;
+          margin-top: 25px; }
+      .show .show_content .show_xia .show_xyou_img {
+        width: 700px;
+        height: 320px;
+        margin-left: 15px;
+        margin-top: 7px; }
+
+.show:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+.show_content:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+.show_r:after {
+  display: block;
+  clear: both;
+  content: ""; }

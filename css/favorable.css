@@ -1,0 +1,62 @@
+.favorable {
+  margin-top: 6px; }
+  .favorable .favorable_content {
+    width: 700px;
+    margin: 0 auto; }
+    .favorable .favorable_content .favorable_l {
+      width: 222px;
+      height: 564px;
+      background: #CCCCCC;
+      float: left; }
+    .favorable .favorable_content .favorable_l:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .favorable .favorable_content .favorable_r {
+      margin-left: 18px;
+      float: left;
+      width: 700px; }
+      .favorable .favorable_content .favorable_r .favorable_c {
+        width: 680px;
+        border-bottom: 1px solid #CCCCCC;
+        padding: 6px; }
+        .favorable .favorable_content .favorable_r .favorable_c span {
+          font-weight: bold;
+          padding-left: 6px; }
+      .favorable .favorable_content .favorable_r ul {
+        width: 700px;
+        margin-top: 20px; }
+        .favorable .favorable_content .favorable_r ul li {
+          margin-left: 40px;
+          height: 160px;
+          margin-bottom: 38px;
+          border-bottom: 1px dashed #CCCCCC; }
+          .favorable .favorable_content .favorable_r ul li div {
+            float: left; }
+            .favorable .favorable_content .favorable_r ul li div a {
+              display: block; }
+              .favorable .favorable_content .favorable_r ul li div a img {
+                margin: 6px 6px;
+                width: 120px;
+                height: 90px; }
+            .favorable .favorable_content .favorable_r ul li div .favorable_03 {
+              position: absolute;
+              margin-top: -132px;
+              margin-left: 20px; }
+            .favorable .favorable_content .favorable_r ul li div p {
+              margin-bottom: 9px;
+              font-size: 12px; }
+              .favorable .favorable_content .favorable_r ul li div p .favorable_span {
+                color: #FF0400; }
+            .favorable .favorable_content .favorable_r ul li div p:nth-of-type(1) {
+              font-size: 16px;
+              font-weight: bolder; }
+            .favorable .favorable_content .favorable_r ul li div button {
+              margin-top: 20px;
+              margin-right: 8px;
+              border-radius: 8px;
+              border: 1px solid #ccc; }
+          .favorable .favorable_content .favorable_r ul li div:nth-of-type(2) {
+            margin-left: 50px; }
+
+/*# sourceMappingURL=favorable.css.map */
